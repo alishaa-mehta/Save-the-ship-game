@@ -82,9 +82,6 @@ function draw() {
    
     bombGroup.destroyEach();
     helicopterGroup.destroyEach();
-    
-  
-    
   }
   
  
@@ -92,10 +89,7 @@ function draw() {
  if(water.position.x < 300){
     water.position.x = 400;
     }
-    
-  
-  
-}
+  }
 
 
 function spawnHelicopter(){
